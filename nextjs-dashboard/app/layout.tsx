@@ -9,7 +9,6 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${montserrat.className} antialiased`}>
-        <h1>Este titulo</h1>
         {children}
       </body>
     </html>
